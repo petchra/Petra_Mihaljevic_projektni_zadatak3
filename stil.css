@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@font-face {
+	font-family: "Petra";
+	src: url("documents/PetraMihaljevic.ttf");
+}
+
+.petra{
+	font-family: "Petra";
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgba(26,0,26,1.00);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.20);
+}
+
+.containerpocetna {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.55); 
+  border-radius: 12px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.20);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85); 
+  border-radius: 12px;
+  margin-top: 60px;
+  margin-bottom: 60px; 
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.20);
+}
+
+
+h1 {
+  font-size: 3.5em;
+  color: #660066;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #444;
+  margin-top: 0;
+}
+
+.navigacija, a {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.navigacija a, a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #660066;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.20);
+}
+
+.navigacija a:hover {
+  background-color: #993399;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+@media screen and (max-width: 600px) {
+  .navigacija {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+img, video, iframe, a {
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.20);
+}
